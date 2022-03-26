@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'keaDashboard'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F2AF5B0BC1DE409EAD174BC5F0FE35D5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6577837B94EB49BEAE74B3A19E08936F }}
