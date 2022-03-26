@@ -145,10 +145,11 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   body {
     font-size: 1.5em;
-   /* currently ems cause chrome bug misinterpreting rems on body element */
+    /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
     color: rgb(255, 255, 255);
+    background-color:rgb(18, 9, 44);
   }
   
   /* Typography –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -419,7 +420,6 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   
   body {
-    background-color: #ffffff;
     color: #ffffff;
     height: 100%;
     margin: 0;
@@ -455,7 +455,6 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   .div-for-charts{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100%;
   }
   #histogram {
@@ -631,4 +630,19 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #d8d8d870 !important;
+  }
+
+  .main-svg{
+    background: unset !important;
+  }
+  .svg-container{
+    background-color: rgba(255,255,255,0.1);
+    color:white;
+  }
+  text{
+    fill: rgb(255,255,255) !important;
+  }
+
+  rect.bg{
+    fill: unset !important;
   }
